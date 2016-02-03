@@ -17966,16 +17966,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <deviceset name="RELAY">
 <description>SPDT relay (COM-00101)</description>
 <gates>
-<gate name="G$1" symbol="RELAY-SPDT" x="2.54" y="0"/>
+<gate name="K$1" symbol="RELAY-SPDT" x="2.54" y="0"/>
 </gates>
 <devices>
 <device name="PTH" package="RELAY-G5Q">
 <connects>
-<connect gate="G$1" pin="COIL1" pad="5"/>
-<connect gate="G$1" pin="COIL2" pad="1"/>
-<connect gate="G$1" pin="MAIN" pad="2"/>
-<connect gate="G$1" pin="NC" pad="4"/>
-<connect gate="G$1" pin="NO" pad="3"/>
+<connect gate="K$1" pin="COIL1" pad="5"/>
+<connect gate="K$1" pin="COIL2" pad="1"/>
+<connect gate="K$1" pin="MAIN" pad="2"/>
+<connect gate="K$1" pin="NC" pad="4"/>
+<connect gate="K$1" pin="NO" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17983,11 +17983,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 <device name="PTH2" package="RELAY-T9A">
 <connects>
-<connect gate="G$1" pin="COIL1" pad="COIL1"/>
-<connect gate="G$1" pin="COIL2" pad="COIL2"/>
-<connect gate="G$1" pin="MAIN" pad="MAIN"/>
-<connect gate="G$1" pin="NC" pad="NC"/>
-<connect gate="G$1" pin="NO" pad="NO"/>
+<connect gate="K$1" pin="COIL1" pad="COIL1"/>
+<connect gate="K$1" pin="COIL2" pad="COIL2"/>
+<connect gate="K$1" pin="MAIN" pad="MAIN"/>
+<connect gate="K$1" pin="NC" pad="NC"/>
+<connect gate="K$1" pin="NO" pad="NO"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17995,11 +17995,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 <device name="PTH3" package="RELAY-T9A-2">
 <connects>
-<connect gate="G$1" pin="COIL1" pad="COIL1"/>
-<connect gate="G$1" pin="COIL2" pad="COIL2"/>
-<connect gate="G$1" pin="MAIN" pad="MAIN"/>
-<connect gate="G$1" pin="NC" pad="NC"/>
-<connect gate="G$1" pin="NO" pad="NO"/>
+<connect gate="K$1" pin="COIL1" pad="COIL1"/>
+<connect gate="K$1" pin="COIL2" pad="COIL2"/>
+<connect gate="K$1" pin="MAIN" pad="MAIN"/>
+<connect gate="K$1" pin="NC" pad="NC"/>
+<connect gate="K$1" pin="NO" pad="NO"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18007,11 +18007,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 <device name="PTH4" package="RELAY-JZC">
 <connects>
-<connect gate="G$1" pin="COIL1" pad="5"/>
-<connect gate="G$1" pin="COIL2" pad="1"/>
-<connect gate="G$1" pin="MAIN" pad="4"/>
-<connect gate="G$1" pin="NC" pad="2"/>
-<connect gate="G$1" pin="NO" pad="3"/>
+<connect gate="K$1" pin="COIL1" pad="5"/>
+<connect gate="K$1" pin="COIL2" pad="1"/>
+<connect gate="K$1" pin="MAIN" pad="4"/>
+<connect gate="K$1" pin="NC" pad="2"/>
+<connect gate="K$1" pin="NO" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18019,11 +18019,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 <device name="PTH5" package="RELAY-T90">
 <connects>
-<connect gate="G$1" pin="COIL1" pad="COIL1"/>
-<connect gate="G$1" pin="COIL2" pad="COIL2"/>
-<connect gate="G$1" pin="MAIN" pad="MAIN"/>
-<connect gate="G$1" pin="NC" pad="NC"/>
-<connect gate="G$1" pin="NO" pad="NO"/>
+<connect gate="K$1" pin="COIL1" pad="COIL1"/>
+<connect gate="K$1" pin="COIL2" pad="COIL2"/>
+<connect gate="K$1" pin="MAIN" pad="MAIN"/>
+<connect gate="K$1" pin="NC" pad="NC"/>
+<connect gate="K$1" pin="NO" pad="NO"/>
 </connects>
 <technologies>
 <technology name="">
@@ -18136,17 +18136,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </part>
 <part name="U$10" library="SparkFun" deviceset="RAW" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M03" device="SCREW"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="M03" device="SCREW"/>
 <part name="U$8" library="SparkFun" deviceset="RAW" device=""/>
-<part name="U6" library="SparkFun-Electromechanical" deviceset="RELAY" device="PTH5" value="JQX-15F"/>
+<part name="K1" library="SparkFun-Electromechanical" deviceset="RELAY" device="PTH5" value="JQX-15F"/>
 <part name="U$12" library="SparkFun" deviceset="OSHW-LOGO" device="S"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M03" device="-SCREW-5MM"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="M03" device="-SCREW-5MM">
+<attribute name="PROD_ID" value="CONN-10134"/>
+</part>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="KIT" value="BZT52">
 <attribute name="PROD-ID" value="DIO-08199"/>
 </part>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH" value="SFE_LOGO_NAME_FLAME.1_INCH"/>
-<part name="JP3" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
+<part name="JP1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18178,8 +18180,9 @@ than 0.21 inch.</text>
 <instance part="GND1" gate="1" x="106.68" y="43.18"/>
 <instance part="U$2" gate="G$1" x="106.68" y="154.94"/>
 <instance part="R2" gate="G$1" x="91.44" y="53.34" rot="R180"/>
-<instance part="LED1" gate="G$1" x="134.62" y="88.9">
-<attribute name="PROD_ID" x="134.62" y="88.9" size="1.27" layer="96" display="both"/>
+<instance part="LED1" gate="G$1" x="134.62" y="88.9" smashed="yes">
+<attribute name="NAME" x="138.176" y="84.328" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="140.335" y="84.328" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R4" gate="G$1" x="134.62" y="76.2" rot="R90"/>
 <instance part="U$3" gate="G$1" x="246.38" y="25.4"/>
@@ -18193,11 +18196,13 @@ than 0.21 inch.</text>
 </instance>
 <instance part="U$10" gate="G$1" x="134.62" y="93.98"/>
 <instance part="GND2" gate="1" x="81.28" y="45.72"/>
-<instance part="JP2" gate="G$1" x="66.04" y="53.34"/>
+<instance part="J2" gate="G$1" x="66.04" y="53.34"/>
 <instance part="U$8" gate="G$1" x="81.28" y="58.42"/>
-<instance part="U6" gate="G$1" x="139.7" y="124.46"/>
+<instance part="K1" gate="K$1" x="139.7" y="124.46"/>
 <instance part="U$12" gate="G$1" x="167.64" y="48.26"/>
-<instance part="JP1" gate="G$1" x="182.88" y="139.7" rot="R180"/>
+<instance part="J1" gate="G$1" x="182.88" y="139.7" rot="R180">
+<attribute name="PROD_ID" x="182.88" y="139.7" size="1.27" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="D2" gate="G$1" x="106.68" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="108.7374" y="127" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="111.5314" y="127" size="1.778" layer="96" rot="R90"/>
@@ -18205,7 +18210,7 @@ than 0.21 inch.</text>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="V" x="147.32" y="0"/>
 <instance part="LOGO1" gate="G$1" x="185.42" y="38.1"/>
-<instance part="JP3" gate="G$1" x="99.06" y="132.08" smashed="yes" rot="R90">
+<instance part="JP1" gate="G$1" x="99.06" y="132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="96.52" y="129.54" size="1.778" layer="95" rot="R90"/>
 </instance>
 </instances>
@@ -18222,7 +18227,7 @@ than 0.21 inch.</text>
 <wire x1="73.66" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="50.8" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RAW" class="0">
@@ -18235,7 +18240,7 @@ than 0.21 inch.</text>
 <junction x="106.68" y="152.4"/>
 <pinref part="U$2" gate="G$1" pin="RAW"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="U6" gate="G$1" pin="COIL1"/>
+<pinref part="K1" gate="K$1" pin="COIL1"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="93.98" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
@@ -18245,7 +18250,7 @@ than 0.21 inch.</text>
 <segment>
 <wire x1="73.66" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="55.88" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="3"/>
+<pinref part="J2" gate="G$1" pin="3"/>
 <pinref part="U$8" gate="G$1" pin="RAW"/>
 </segment>
 </net>
@@ -18261,7 +18266,7 @@ than 0.21 inch.</text>
 <wire x1="86.36" y1="53.34" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
 <label x="76.708" y="53.594" size="1.778" layer="95"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -18280,7 +18285,7 @@ than 0.21 inch.</text>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="58.42" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="68.58" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="COIL2"/>
+<pinref part="K1" gate="K$1" pin="COIL2"/>
 <wire x1="106.68" y1="119.38" x2="129.54" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="106.68" y1="129.54" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
@@ -18289,11 +18294,11 @@ than 0.21 inch.</text>
 <junction x="106.68" y="124.46"/>
 <junction x="106.68" y="119.38"/>
 <junction x="106.68" y="68.58"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="127" x2="99.06" y2="124.46" width="0.2032" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="106.68" y1="144.78" x2="106.68" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
@@ -18307,30 +18312,30 @@ than 0.21 inch.</text>
 <segment>
 <wire x1="167.64" y1="124.46" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
 <label x="149.86" y="124.46" size="1.778" layer="95"/>
-<pinref part="JP1" gate="G$1" pin="3"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="167.64" y1="124.46" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="137.16" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="MAIN"/>
+<pinref part="K1" gate="K$1" pin="MAIN"/>
 </segment>
 </net>
 <net name="NO" class="0">
 <segment>
 <wire x1="165.1" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
 <label x="152.4" y="119.38" size="1.778" layer="95"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="119.38" x2="165.1" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="NO"/>
+<pinref part="K1" gate="K$1" pin="NO"/>
 </segment>
 </net>
 <net name="NC" class="0">
 <segment>
 <wire x1="147.32" y1="129.54" x2="162.56" y2="129.54" width="0.1524" layer="91"/>
 <label x="152.4" y="129.54" size="1.778" layer="95"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="129.54" x2="162.56" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="NC"/>
+<pinref part="K1" gate="K$1" pin="NC"/>
 </segment>
 </net>
 </nets>
