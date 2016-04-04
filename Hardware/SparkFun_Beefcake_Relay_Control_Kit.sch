@@ -18143,7 +18143,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J1" library="SparkFun-Connectors" deviceset="M03" device="-SCREW-5MM">
 <attribute name="PROD_ID" value="CONN-10134"/>
 </part>
-<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="KIT" value="BZT52">
+<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="KIT" value="Zener">
 <attribute name="PROD-ID" value="DIO-08199"/>
 </part>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
@@ -18163,9 +18163,11 @@ when the relay coil is energized</text>
 Place D1 with a normal diode such
 as the 1N4148 for normal use.
 
-For low voltage cutout, use
-a zener at D2 and cut the bypass
-trace.</text>
+For increased coil protection, use a zener
+at D2 to allow a certain flyback voltage.
+Keep Vcc + Vzener under 30 volts
+(Breakdown voltage of the NPN with
+a 10v margin)</text>
 <text x="10.16" y="22.86" size="2.032" layer="97">To maintiain 250VAC/VDC galvanic isolation, use 
 non-conductive standoffs and 4-40 HW with a head
 diameter no greater than 0.21 inch.</text>
