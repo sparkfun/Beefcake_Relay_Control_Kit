@@ -16433,14 +16433,14 @@ Matches 4UCONN part # 11026&lt;br&gt;
 <description>&lt;b&gt;Header 3&lt;/b&gt;
 Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115). Molex polarized connector foot print use with SKU : PRT-08232 with associated crimp pins and housings.</description>
 <gates>
-<gate name="G$1" symbol="M03" x="-2.54" y="0"/>
+<gate name="J$1" symbol="M03" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="PTH" package="1X03">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16448,9 +16448,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="POLAR" package="MOLEX-1X3">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16458,9 +16458,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="SCREW" package="SCREWTERMINAL-3.5MM-3">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -16470,9 +16470,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="LOCK" package="1X03_LOCK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16480,9 +16480,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="LOCK_LONGPADS" package="1X03_LOCK_LONGPADS">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16490,9 +16490,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="POLAR_LOCK" package="MOLEX-1X3_LOCK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16500,9 +16500,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="SCREW_LOCK" package="SCREWTERMINAL-3.5MM-3_LOCK.007S">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -16512,9 +16512,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="1X03_NO_SILK" package="1X03_NO_SILK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16522,9 +16522,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="LONGPADS" package="1X03_LONGPADS">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16532,9 +16532,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="JST-PTH" package="JST-3-PTH">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -16544,9 +16544,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="POGO_PIN_HOLES_ONLY" package="1X03_PP_HOLES_ONLY">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16554,9 +16554,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="-SCREW-5MM" package="SCREWTERMINAL-5MM-3">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -16566,9 +16566,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="LOCK_NO_SILK" package="1X03_LOCK_NO_SILK">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16576,9 +16576,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="JST-SMD" package="JST-3-SMD">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -16589,9 +16589,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="SMD" package="1X03-1MM-RA">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16599,9 +16599,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="SMD_RA_FEMALE" package="1X03_SMD_RA_FEMALE">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -16612,9 +16612,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="SMD_RA_MALE" package="1X03_SMD_RA_MALE">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -16624,9 +16624,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="SMD_RA_MALE_POST" package="1X03_SMD_RA_MALE_POST">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16634,9 +16634,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="JST-PTH-VERT" package="JST-3-PTH-VERT">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16644,9 +16644,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="1X03_SMD_RA_MALE_POST_SMALLER" package="1X03_SMD_RA_MALE_POST_SMALLER">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16654,9 +16654,9 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 <device name="1X03_SMD_RA_MALE_POST_SMALLEST" package="1X03_SMD_RA_MALE_POST_SMALLEST">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="J$1" pin="1" pad="1"/>
+<connect gate="J$1" pin="2" pad="2"/>
+<connect gate="J$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16867,21 +16867,6 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <wire x1="3.5" y1="3" x2="3.5" y2="2" width="0.2032" layer="21"/>
 <wire x1="3.5" y1="-3" x2="3.5" y2="-2" width="0.2032" layer="21"/>
 </package>
-<package name="DIODE-BZT52">
-<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="A" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
-<pad name="C" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
-<text x="-2.54" y="1.27" size="0.8128" layer="25" font="vector" ratio="15">&gt;Name</text>
-<text x="-2.032" y="-0.508" size="0.8128" layer="21" font="vector" ratio="15">&gt;Value</text>
-</package>
 <package name="DIODE-1N4148-KIT">
 <wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
 <wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
@@ -17088,7 +17073,7 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DIODE-ZENER" prefix="D">
+<deviceset name="DIODE-ZENER" prefix="D" uservalue="yes">
 <description>Zener Diode
 Production Part - 8199
 3.4V Zener Voltage</description>
@@ -17161,15 +17146,14 @@ Production Part - 8199
 </technology>
 </technologies>
 </device>
-<device name="" package="DIODE-BZT52">
+<device name="" package="DIODE-1N4148-KIT">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD-ID" value="DIO-08199" constant="no"/>
-<attribute name="VALUE" value="BZT52" constant="no"/>
+<attribute name="PROD_ID" value="Generic" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -18388,11 +18372,11 @@ GND</text>
 </instance>
 <instance part="U$10" gate="G$1" x="134.62" y="93.98"/>
 <instance part="GND2" gate="1" x="81.28" y="45.72"/>
-<instance part="J2" gate="G$1" x="66.04" y="53.34"/>
+<instance part="J2" gate="J$1" x="66.04" y="53.34"/>
 <instance part="U$8" gate="G$1" x="81.28" y="58.42"/>
 <instance part="K1" gate="K$1" x="139.7" y="124.46"/>
 <instance part="U$12" gate="G$1" x="167.64" y="48.26"/>
-<instance part="J1" gate="G$1" x="182.88" y="139.7" rot="R180">
+<instance part="J1" gate="J$1" x="182.88" y="139.7" rot="R180">
 <attribute name="PROD_ID" x="182.88" y="139.7" size="1.27" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -18419,7 +18403,7 @@ GND</text>
 <wire x1="73.66" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="50.8" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="J2" gate="J$1" pin="1"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -18442,7 +18426,7 @@ GND</text>
 <segment>
 <wire x1="73.66" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="55.88" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="J2" gate="J$1" pin="3"/>
 <pinref part="U$8" gate="G$1" pin="VCC"/>
 </segment>
 </net>
@@ -18458,7 +18442,7 @@ GND</text>
 <wire x1="86.36" y1="53.34" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
 <label x="76.708" y="53.594" size="1.778" layer="95"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J2" gate="J$1" pin="2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -18495,7 +18479,7 @@ GND</text>
 <segment>
 <wire x1="167.64" y1="124.46" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
 <label x="149.86" y="124.46" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="J1" gate="J$1" pin="3"/>
 <wire x1="167.64" y1="124.46" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="137.16" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="K1" gate="K$1" pin="MAIN"/>
@@ -18505,7 +18489,7 @@ GND</text>
 <segment>
 <wire x1="165.1" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="91"/>
 <label x="152.4" y="119.38" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="J1" gate="J$1" pin="2"/>
 <wire x1="165.1" y1="119.38" x2="165.1" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="K1" gate="K$1" pin="NO"/>
@@ -18515,7 +18499,7 @@ GND</text>
 <segment>
 <wire x1="147.32" y1="129.54" x2="162.56" y2="129.54" width="0.1524" layer="91"/>
 <label x="152.4" y="129.54" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="J1" gate="J$1" pin="1"/>
 <wire x1="162.56" y1="129.54" x2="162.56" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="K1" gate="K$1" pin="NC"/>
