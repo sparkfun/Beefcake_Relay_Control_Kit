@@ -1846,7 +1846,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="51.6509" y="21.9329" size="1.27" layer="27" ratio="10" rot="R90"/>
 <attribute name="PROD_ID" value="DIO-09529" x="49.8475" y="18.7325" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R3" library="SparkFun-Resistors" package="AXIAL-0.3EZ" value="1K" x="51.1175" y="23.1775" smashed="yes">
+<element name="R1" library="SparkFun-Resistors" package="AXIAL-0.3EZ" value="1K" x="51.1175" y="23.1775" smashed="yes">
 <attribute name="VALUE" value="1K" x="51.1175" y="23.1775" size="1.778" layer="27" display="off"/>
 <attribute name="PROD_ID" value="RES-12182" x="51.1175" y="23.1775" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="48.5775" y="24.4475" size="0.4064" layer="25" font="vector"/>
@@ -1928,14 +1928,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 <signal name="N$9">
 <contactref element="LED1" pad="K"/>
-<contactref element="R3" pad="P$2"/>
+<contactref element="R1" pad="P$2"/>
 <wire x1="49.8475" y1="20.0025" x2="53.34" y2="20.0025" width="0.6096" layer="1"/>
 <wire x1="53.34" y1="20.0025" x2="54.9275" y2="21.59" width="0.6096" layer="1"/>
 <wire x1="54.9275" y1="21.59" x2="54.9275" y2="23.1775" width="0.6096" layer="1"/>
 </signal>
 <signal name="COIL">
 <contactref element="Q1" pad="3"/>
-<contactref element="R3" pad="P$1"/>
+<contactref element="R1" pad="P$1"/>
 <contactref element="K1" pad="COIL2"/>
 <wire x1="48.26" y1="9.2075" x2="48.26" y2="6.985" width="0.6096" layer="1"/>
 <wire x1="48.26" y1="6.985" x2="47.625" y2="6.35" width="0.6096" layer="1"/>

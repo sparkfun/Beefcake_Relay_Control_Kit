@@ -18288,7 +18288,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="5MM-KIT">
 <attribute name="PROD_ID" value="DIO-09529"/>
 </part>
-<part name="R3" library="SparkFun-Resistors" deviceset="1KOHM-1/4W-1%(PTH)" device="HORIZ-KIT" value="1K"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="1KOHM-1/4W-1%(PTH)" device="HORIZ-KIT" value="1K"/>
 <part name="U$3" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="U$4" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="U$5" library="SparkFun" deviceset="STAND-OFF" device=""/>
@@ -18361,7 +18361,7 @@ GND</text>
 <attribute name="NAME" x="138.176" y="84.328" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="140.335" y="84.328" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R3" gate="G$1" x="134.62" y="76.2" rot="R90"/>
+<instance part="R1" gate="G$1" x="134.62" y="76.2" rot="R90"/>
 <instance part="U$3" gate="G$1" x="246.38" y="25.4"/>
 <instance part="U$4" gate="G$1" x="241.3" y="25.4"/>
 <instance part="U$5" gate="G$1" x="236.22" y="25.4"/>
@@ -18450,7 +18450,7 @@ GND</text>
 <segment>
 <wire x1="134.62" y1="81.28" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="COIL" class="0">
@@ -18459,7 +18459,7 @@ GND</text>
 <wire x1="134.62" y1="68.58" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
 <label x="112.268" y="120.142" size="1.778" layer="95"/>
 <pinref part="Q1" gate="G$1" pin="C"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="58.42" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="68.58" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="K1" gate="K$1" pin="COIL2"/>
