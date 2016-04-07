@@ -17153,7 +17153,8 @@ Production Part - 8199
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="Generic" constant="no"/>
+<attribute name="PROD_ID" value="DIO-13313" constant="no"/>
+<attribute name="VALUE" value="Zener" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -18280,14 +18281,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="2N3904-EZ" value="2N3904"/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="2N3904-EZ" value="2N3904"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="VCC" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="R2" library="SparkFun-Resistors" deviceset="1KOHM-1/4W-1%(PTH)" device="HORIZ-KIT" value="1K"/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="5MM-KIT">
 <attribute name="PROD_ID" value="DIO-09529"/>
 </part>
-<part name="R4" library="SparkFun-Resistors" deviceset="1KOHM-1/4W-1%(PTH)" device="HORIZ-KIT" value="1K"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="1KOHM-1/4W-1%(PTH)" device="HORIZ-KIT" value="1K"/>
 <part name="U$3" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="U$4" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="U$5" library="SparkFun" deviceset="STAND-OFF" device=""/>
@@ -18352,7 +18353,7 @@ GND</text>
 <text x="10.16" y="172.72" size="4.064" layer="97">Sparkfun Beefcake Relay Control</text>
 </plain>
 <instances>
-<instance part="Q2" gate="G$1" x="104.14" y="53.34"/>
+<instance part="Q1" gate="G$1" x="104.14" y="53.34"/>
 <instance part="GND1" gate="1" x="106.68" y="43.18"/>
 <instance part="VCC" gate="G$1" x="106.68" y="154.94"/>
 <instance part="R2" gate="G$1" x="91.44" y="53.34" rot="R180"/>
@@ -18360,7 +18361,7 @@ GND</text>
 <attribute name="NAME" x="138.176" y="84.328" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="140.335" y="84.328" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R4" gate="G$1" x="134.62" y="76.2" rot="R90"/>
+<instance part="R3" gate="G$1" x="134.62" y="76.2" rot="R90"/>
 <instance part="U$3" gate="G$1" x="246.38" y="25.4"/>
 <instance part="U$4" gate="G$1" x="241.3" y="25.4"/>
 <instance part="U$5" gate="G$1" x="236.22" y="25.4"/>
@@ -18396,7 +18397,7 @@ GND</text>
 <net name="GND" class="0">
 <segment>
 <wire x1="106.68" y1="45.72" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="E"/>
+<pinref part="Q1" gate="G$1" pin="E"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -18433,7 +18434,7 @@ GND</text>
 <net name="N$6" class="0">
 <segment>
 <wire x1="96.52" y1="53.34" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="B"/>
+<pinref part="Q1" gate="G$1" pin="B"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -18449,7 +18450,7 @@ GND</text>
 <segment>
 <wire x1="134.62" y1="81.28" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="COIL" class="0">
@@ -18457,8 +18458,8 @@ GND</text>
 <wire x1="106.68" y1="68.58" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="68.58" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
 <label x="112.268" y="120.142" size="1.778" layer="95"/>
-<pinref part="Q2" gate="G$1" pin="C"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="G$1" pin="C"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="58.42" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="68.58" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="K1" gate="K$1" pin="COIL2"/>
