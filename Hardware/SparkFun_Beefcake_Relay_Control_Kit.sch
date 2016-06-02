@@ -18323,7 +18323,7 @@ when the relay coil is energized</text>
 Place D1 with a normal diode such
 as the 1N4148 for all cases.
 
-For increased coil protection, use a zener
+Use a zener (such as the 1N4739)
 at D2 to allow a certain flyback voltage.
 Keep Vcc + Vzener under 30 volts
 (Breakdown voltage of the NPN with
