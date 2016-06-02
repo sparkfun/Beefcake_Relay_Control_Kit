@@ -11,6 +11,12 @@ Repository Contents
 
 * **/Hardware** - Eagle design files (Schematic and Board)
 
+Documentation
+--------------
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/beefcake-relay-control-hookup-guide)** - Basic hookup guide for the Beefcake Relay Control Kit.
+* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
+
+
 Product Versions
 ----------------
 * [KIT-13815](https://www.sparkfun.com/products/13815) - Beefcake Relay Control Kit
