@@ -1,7 +1,7 @@
 Beefcake Relay Control Kit
 ==========================
 
-[![Beefcake Relay Control Kit](https://cdn.sparkfun.com/assets/parts/1/1/4/0/5/13815-01.jpg)  
+[![Beefcake Relay Control Kit](https://cdn.sparkfun.com//assets/parts/1/1/4/0/5/13815-01a.jpg)  
 *Beefcake Relay Control Kit (KIT-13815)*](https://www.sparkfun.com/products/13815)
 
 The Beefcake Relay Control Kit contains all the parts you need to get your high-power load under control.
